@@ -1,0 +1,116 @@
+h1{
+    color: #04151f;
+    text-shadow: 3px 3px 1px lightblue;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+    margin: 0 auto;
+}
+
+html {
+    background-image: url(../images/BackGround.png);
+    background-size: cover;
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+
+body{
+    align-self: center;
+    width: 700px;
+    margin: auto;
+    background-color: #df7126;
+    padding: 0px 20px 20px 20px;
+    border: 5px solid #161006;
+
+
+}
+.top {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.profile
+{
+   
+    height: 270px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+table {
+    background-color: #cfa559;
+    margin: 0 auto;
+    display: block;
+    border-width: 15px;
+    border-style: ridge;
+    border-color: #04151f;
+}
+
+.test{ 
+    color: #161006;
+    font-size: 32px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+h2{
+    padding: 20px 20px 5px 5px;
+    color: #04151f;
+    text-shadow: 3px 3px 1px lightblue;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+    margin: 0 auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  button{
+      margin-top: 5px;
+      background-color: blue;
+      padding: 10px 32px;
+      text-align: center;
+      font-family: 'Metal Mania', cursive;
+      font-size: 20px;
+  }
+
+  .description{
+      font-size: 24px;
+      padding-bottom: 0px;
+  }
+
+  img:hover {
+    opacity: 0.5;
+  }
+  
+  button:hover {
+      opacity: 0.5;
+  }
+  
+  .programming
+  {
+      font-size: 16px;
+      font-family: monospace;
+  }
+
+  .stuff{
+      border-width: 5px;
+      border-style: solid;
+      background-color: #1e1e1e;
+      color: whitesmoke;
+
+  }
